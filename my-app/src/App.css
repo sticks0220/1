@@ -1,0 +1,36 @@
+.map {
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.Longitude {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.Latitude { 
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  z-index: 2;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.map-rectangle {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  width: 200px; /* Ширина прямоугольника */
+  height: 100px; /* Высота прямоугольника */
+  background-color: rgb(255, 255, 255); /* Цвет прямоугольника */
+}
+
